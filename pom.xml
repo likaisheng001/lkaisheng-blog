@@ -116,5 +116,9 @@
         <module>lkaisheng-blog-web</module>
         <module>lkaisheng-blog-dao</module>
         <module>lkaisheng-blog-job</module>
+        <module>lkaisheng-blog-manager</module>
+        <module>lkaisheng-blog-model</module>
+        <module>lkaisheng-blog-service</module>
+        <module>lkaisheng-blog-util</module>
     </modules>
 </project>

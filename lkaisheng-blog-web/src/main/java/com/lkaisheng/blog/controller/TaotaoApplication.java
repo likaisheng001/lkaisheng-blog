@@ -1,5 +1,6 @@
 package com.lkaisheng.blog.controller;
 
+import com.jolbox.bonecp.BoneCPDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
+
 
 /**
  * Created by likaisheng on 2018/3/6.

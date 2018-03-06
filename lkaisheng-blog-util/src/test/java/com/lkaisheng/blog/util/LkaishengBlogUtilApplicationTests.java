@@ -11,6 +11,6 @@ public class LkaishengBlogUtilApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	}
 
+	}
 }

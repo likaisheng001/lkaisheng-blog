@@ -5,7 +5,6 @@
 
 	<groupId>com.lkaisheng.blog</groupId>
 	<artifactId>lkaisheng-blog-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>lkaisheng-blog-web</name>
@@ -39,6 +38,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.lkaisheng.blog</groupId>
+			<artifactId>lkaisheng-blog-service</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 

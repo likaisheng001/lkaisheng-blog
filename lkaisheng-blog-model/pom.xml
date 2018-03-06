@@ -34,6 +34,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.lkaisheng.blog</groupId>
+			<artifactId>lkaisheng-blog-util</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -44,6 +50,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 </project>
